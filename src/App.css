@@ -10,7 +10,7 @@ body {
 header,
 main,
 footer {
-  background-color: rgb(206, 134, 56);
+  background-color: rgb(180, 124, 65);
   margin: 2rem;
   padding: 2rem;
 }
@@ -31,12 +31,25 @@ footer {
   align-items: center;
   justify-content: center;
 }
-.circle-button {
+.circle {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   box-shadow: 0 0 5px #333;
   border: none;
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 80px;
+  font-size: 2rem;
+}
+
+.even {
+  background-color: rgb(80, 77, 78);
+  color: white;
+}
+.odd {
+  background-color: rgb(68, 179, 191);
+  color: white;
 }
 .box-button {
   display: flex;
